@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a class="active" href="#O_mnie">O mnie</a>
+            </li>
+            <li>
+                <a href="#Certyfikaty">Certyfikaty</a>
+            </li>
+            <li>
+                <a href="#Kontakt">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="glowna">
+            <div class="Portfolio_Name">
+                <h4>
+                    Portfolio
+                </h4>
+            </div>
+            <div class="O_mnie" id="O_mnie">
+                
+                <div class="zdjecie">
+                    <img src="files/avatar.png" alt="Zdjecie" srcset="">
+                </div>
+
+                <div class="opis">
+                    <p class="opis_tytul">
+                        O Mnie
+                    </p>
+                    <p class="opis_opis">
+                        Witam na moim portfolio . Nazywam sie Warwas Daniel , mam 24 lata i mieszkam w Sosnowcu.
+                        Ukończyłem Technikum na profilu technik informatyk. Z doświadczenia pracowałem 2 lata 
+                        na stanowisku Specjalista ds. IT dla jednego z największych agentów Orange. Zajmowałem sie 
+                        Helpdeskiem oraz programowaniem w C# z użyciem ASP:Net oraz z połączeniem T-sql w bazie danych
+                        BIG DATA. Nie dawno skończyłem kurs na Front-end Developera i w tym kierunku chcę się kształcić 
+                        i pracować jako projektant stron internetowych.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="Certyfikaty" id="Certyfikaty">
+                <div>
+                    <p class="certyfikaty_opis">
+                        Certyfikaty
+                    </p>
+                </div>
+
+
+                <!-- Kontener na galerie zdjec -->
+                <div class="container">
+                    <!-- Pelno rozmiarowe zdjecia z nr  -->
+                    <div class="moje_slajdy">
+                        <div class="numer_zdj">1 / 4 </div>
+                        <img src="files/E12.png" alt="E12" style="width:100%">
+                    </div>
+                    <div class="moje_slajdy">
+                        <div class="numer_zdj">2 / 4 </div>
+                        <img src="files/E13.png" alt="E12" style="width:100%">
+                    </div>
+                    <div class="moje_slajdy">
+                        <div class="numer_zdj">3 / 4 </div>
+                        <img src="files/E14.png" alt="E12" style="width:100%">
+                    </div>
+                    <div class="moje_slajdy">
+                        <div class="numer_zdj">4 / 4 </div>
+                        <img src="files/FRONT.png" alt="E12" style="width:100%">
+                    </div>
+                    <!-- Przyciski nastepny/poprzedni -->
+                    <a class="poprzedni" onclick="plusSlides(-1)"></a>
+                    <a class="nastepny" onclick="plusSlides(-1)"></a>
+                    <!-- Opis zdjecia  -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                    <!-- Miniaturki -->
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="files/E12.png" 
+                            style="width:100%" onclick="currentSlide(1)" alt="E12">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="files/E13.png" 
+                            style="width:100%" onclick="currentSlide(2)" alt="E13">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="files/E14.png" 
+                            style="width:100%" onclick="currentSlide(3)" alt="E14">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="files/FRONT.png" 
+                            style="width:100%" onclick="currentSlide(4)" alt="FRONT">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>

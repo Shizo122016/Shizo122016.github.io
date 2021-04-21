@@ -1,0 +1,155 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../files/background.png");
+}
+
+body ul {
+  position: -webkit-sticky;
+  position: sticky;
+  list-style-type: none;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+body ul li {
+  float: center;
+}
+
+body ul li a {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body ul li a:hover {
+  background-color: rgba(68, 63, 63, 0.3);
+}
+
+body .glowna {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+body .Portfolio_Name {
+  text-align: left;
+  color: white;
+  font-family: Consolas;
+  font-size: 3vh;
+}
+
+body .O_mnie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 3px solid white;
+}
+
+body .O_mnie .zdjecie {
+  width: 30%;
+  margin-top: 5%;
+}
+
+body .O_mnie .opis {
+  width: 70%;
+  text-align: center;
+}
+
+body .O_mnie .opis .opis_tytul {
+  font-size: 4vh;
+  color: white;
+}
+
+body .O_mnie .opis .opis_opis {
+  color: white;
+  font-size: 2.5vh;
+}
+
+body .Certyfikaty {
+  border-top: 3px solid white;
+}
+
+body .Certyfikaty .container {
+  position: relative;
+}
+
+body .Certyfikaty .container .moje_slajdy {
+  display: none;
+}
+
+body .Certyfikaty .container .moje_slajdy .numer_zdj {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+body .Certyfikaty .container .row .column {
+  float: left;
+  width: 16.66%;
+}
+
+body .Certyfikaty .container .row .column .cursor {
+  cursor: pointer;
+}
+
+body .Certyfikaty .container .row .column .demo {
+  opacity: 0.6;
+}
+
+body .Certyfikaty .container .row .column .aktywny,
+body .Certyfikaty .container .row .column .demo:hover {
+  opacity: 1;
+}
+
+body .Certyfikaty .container .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body .Certyfikaty .container .poprzedni,
+body .Certyfikaty .container .nastepny {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+body .Certyfikaty .container .nastepny {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+body .Certyfikaty .container .poprzedni:hover,
+body .Certyfikaty .container .nastepny:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+body .Certyfikaty .container .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

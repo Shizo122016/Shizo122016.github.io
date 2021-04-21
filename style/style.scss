@@ -1,0 +1,145 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+    background-image: url("../files/background.png");
+    ul {
+        
+        position:sticky;
+        list-style-type: none;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, .3);
+        
+    li{
+        float:center;
+
+    }
+
+    li a {
+        display: block;
+        color:rgba(255, 255, 255, .7);
+        text-align:center;
+        padding:14px 16px;
+        text-decoration: none;
+        font-weight:bold;
+        
+
+    }
+
+    li a:hover {
+        background-color: rgba(68, 63, 63, .3);
+
+    }
+    
+    }
+    .glowna{
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .Portfolio_Name{
+        text-align:left;
+        color:white;
+        font-family: Consolas;
+        font-size: 3vh;
+    }
+    .O_mnie{
+        display:flex;
+        border-top:3px solid white;
+        
+        .zdjecie{
+            width:30%;
+            margin-top:5%;
+        }
+        .opis{
+
+            width:70%;
+            text-align:center;
+            
+            .opis_tytul{
+                font-size:4vh;
+                color:white;
+                
+            }
+            .opis_opis{
+                color:white;
+                font-size:2.5vh;
+            }
+        }
+    }
+
+    .Certyfikaty{
+        border-top:3px solid white;
+        //Pozycja kontenera zdjec (Potrzebne do pozycji lewego i prawej strzalki)
+        .container{
+            position:relative;
+            .moje_slajdy{
+                display:none;
+                .numer_zdj{
+                    color: #f2f2f2;
+                    font-size:12px;
+                    padding:8px 12px;
+                    position:absolute;
+                    top:0;
+                }
+            }
+            .row{
+                .column{
+                    float: left;
+                    width: 16.66%;
+                    .cursor{
+                        cursor:pointer;
+                    }
+                    .demo{
+                        opacity:0.6;
+                    }
+                    .aktywny,
+                    .demo:hover{
+                        opacity:1;
+                    }
+                }
+            }
+            .row:after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .poprzedni,
+            .nastepny {
+                cursor:pointer;
+                position: absolute;
+                top:40%;
+                width:auto;
+                padding:16px;
+                margin-top: -50px;
+                color:white;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+            }
+            .nastepny{
+                right:0;
+                border-radius: 3px 0 0 3px;
+            }
+            .poprzedni:hover,
+            .nastepny:hover{
+                background-color: rgba(0 ,0 ,0, 0.8)
+            }
+            .caption-container{
+                text-align:center;
+                background-color: #222;
+                padding: 2px 16px;
+                color:white;
+            }
+
+
+        }
+    }
+
+}
