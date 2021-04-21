@@ -77,16 +77,21 @@ body{
             }
         }
     }
-
-    .Certyfikaty{
+    .certyfikaty_opis{
         border-top:3px solid white;
-        .certyfikaty_opis{
-            width:100%;
-            text-align:center;
-            font-size:4vh;
-            color:white;
-            
-        }
+        width:100%;
+        text-align:center;
+        font-size:4vh;
+        color:white;
+
+        
+    }
+    .Certyfikaty{
+        
+        display:flex;
+        justify-content: center;
+        
+
         //Pozycja kontenera zdjec (Potrzebne do pozycji lewego i prawej strzalki)
         .container{
             width:50%;
@@ -95,6 +100,7 @@ body{
             border:2px inset gray;
             .moje_slajdy{
                 display:none;
+
                 .numer_zdj{
                     color: #f2f2f2;
                     font-size:12px;

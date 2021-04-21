@@ -83,15 +83,21 @@ body .O_mnie .opis .opis_opis {
   font-size: 2.5vh;
 }
 
-body .Certyfikaty {
+body .certyfikaty_opis {
   border-top: 3px solid white;
-}
-
-body .Certyfikaty .certyfikaty_opis {
   width: 100%;
   text-align: center;
   font-size: 4vh;
   color: white;
+}
+
+body .Certyfikaty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .Certyfikaty .container {
