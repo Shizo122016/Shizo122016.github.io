@@ -78,6 +78,11 @@ body .Certyfikaty {
   border-top: 3px solid white;
 }
 
+body .Certyfikaty .certyfikaty_opis {
+  font-size: 4vh;
+  color: white;
+}
+
 body .Certyfikaty .container {
   position: relative;
 }
