@@ -8,36 +8,39 @@ html{
 
 body{
     background-image: url("../files/background.png");
-    ul {
-        
+    nav{
         position:sticky;
-        list-style-type: none;
-        margin-left: 5%;
-        margin-right: 5%;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgba(0, 0, 0, .3);
+        ul {
+            
+            position:sticky;
+            list-style-type: none;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, .3);
+        }
+        li{
+            float:center;
+
+        }
+
+        li a {
+            display: block;
+            color:rgba(255, 255, 255, .7);
+            text-align:center;
+            padding:14px 16px;
+            text-decoration: none;
+            font-weight:bold;
+            
+
+        }
+
+        li a:hover {
+            background-color: rgba(68, 63, 63, .3);
+
+        }
         
-    li{
-        float:center;
-
-    }
-
-    li a {
-        display: block;
-        color:rgba(255, 255, 255, .7);
-        text-align:center;
-        padding:14px 16px;
-        text-decoration: none;
-        font-weight:bold;
-        
-
-    }
-
-    li a:hover {
-        background-color: rgba(68, 63, 63, .3);
-
-    }
     
     }
     .glowna{
