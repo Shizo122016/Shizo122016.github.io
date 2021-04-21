@@ -89,7 +89,10 @@ body{
         }
         //Pozycja kontenera zdjec (Potrzebne do pozycji lewego i prawej strzalki)
         .container{
+            width:50%;
+            height:10vh;
             position:relative;
+            border:2px inset gray;
             .moje_slajdy{
                 display:none;
                 .numer_zdj{

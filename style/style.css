@@ -95,7 +95,10 @@ body .Certyfikaty .certyfikaty_opis {
 }
 
 body .Certyfikaty .container {
+  width: 50%;
+  height: 10vh;
   position: relative;
+  border: 2px inset gray;
 }
 
 body .Certyfikaty .container .moje_slajdy {
