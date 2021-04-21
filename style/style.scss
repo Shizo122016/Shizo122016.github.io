@@ -74,6 +74,11 @@ body{
 
     .Certyfikaty{
         border-top:3px solid white;
+        .certyfikaty_opis{
+            font-size:4vh;
+            color:white;
+            
+        }
         //Pozycja kontenera zdjec (Potrzebne do pozycji lewego i prawej strzalki)
         .container{
             position:relative;
