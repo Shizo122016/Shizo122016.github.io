@@ -78,6 +78,8 @@ body{
     .Certyfikaty{
         border-top:3px solid white;
         .certyfikaty_opis{
+            width:100%;
+            text-align:center;
             font-size:4vh;
             color:white;
             
@@ -98,7 +100,7 @@ body{
             .row{
                 .column{
                     float: left;
-                    width: 16.66%;
+                    width: 20%;
                     .cursor{
                         cursor:pointer;
                     }
